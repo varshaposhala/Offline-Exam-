@@ -105,6 +105,7 @@ Requirements:
 4. Each question should clearly indicate its mark value
 5. Provide detailed, comprehensive answers for each question
 6. Answer format should be in given {example_format} format only, genarate answer for {marks} only.
+7. Generate new type of questions everytime that questions must be from  {syllabus_content}.
 
 {f'Follow this format for questions and answers:{chr(10)}{example_format}' if example_format.strip() else ''}
 
